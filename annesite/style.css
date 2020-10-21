@@ -27,9 +27,9 @@ h3 {
 }
 
 h1 {
-    font-family: 'Averia Serif Libre', cursive;
-    letter-spacing: -2px;
-    font-size: 3em;
+    font-family: 'Amita', cursive;
+    letter-spacing: 1px;
+    font-size: 4em;
 }
 
 h2 {
@@ -157,7 +157,7 @@ hr {
     color: #753333;
 }
 
-.pagetitle {}
+.pagetitle 
 
 .byline {
     float: left;
@@ -193,7 +193,7 @@ hr {
     line-height: normal;
 }
 
-.posts li {}
+.posts li 
 
 .posts h3 {
     margin: 0;
@@ -205,9 +205,9 @@ hr {
     line-height: normal;
 }
 
-.posts a {}
+.posts a 
 
-.entry {}
+.entry 
 
 .last {
     border: none;
@@ -238,7 +238,7 @@ hr {
     list-style: none;
 }
 
-#sidebar li {}
+#sidebar li 
 
 #sidebar li ul {
     padding: 0px 17px 16px 0px;
