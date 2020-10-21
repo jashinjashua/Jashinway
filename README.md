@@ -1,1 +1,1 @@
-My website :   <a href="https://jashinjashua.github.io/burakinsayfasi/">jashinway.com</a>
+My website :   <a href="https://jashinjashua.github.io/jashinway/">jashinway.com</a>
