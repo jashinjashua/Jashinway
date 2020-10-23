@@ -76,7 +76,7 @@ img.aligncenter {
 }
 
 
-/* Header */
+/* Header ***************/
 
 #header-wrapper {
     height: 167px;
@@ -89,7 +89,7 @@ img.aligncenter {
 }
 
 
-/* Logo */
+/* Logo *************/
 
 #logo {
     width: 980px;
@@ -135,43 +135,7 @@ img.aligncenter {
 }
 
 
-/* Search */
-
-#search {
-    float: right;
-    width: 280px;
-    height: 100px;
-    padding: 0;
-}
-
-#search form {
-    height: 41px;
-    margin: 0;
-    padding: 60px 0 0 30px;
-}
-
-#search fieldset {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
-
-#search-text {
-    width: 195px;
-    padding: 6px 10px;
-    border: none;
-    background: #FFFFFF;
-    text-transform: lowercase;
-    font: normal 11px Arial, Helvetica, sans-serif;
-    color: #7F7F81;
-}
-
-#search-submit {
-    display: none;
-}
-
-
-/* Menu */
+/* Menu **********/
 
 #menu-wrapper {
     height: 60px;
@@ -307,7 +271,7 @@ img.aligncenter {
 }
 
 
-/* Sidebar */
+/* Sidebar ******/
 
 #sidebar {
     float: right;
@@ -388,26 +352,7 @@ img.aligncenter {
 }
 
 
-/* Calendar */
-
-#calendar #calendar_wrap {
-    padding: 20px;
-}
-
-#calendar table {
-    width: 100%;
-}
-
-#calendar tbody td {
-    text-align: center;
-}
-
-#calendar #next {
-    text-align: right;
-}
-
-
-/* Footer */
+/* Footer ********/
 
 #footer {
     width: 960px;
