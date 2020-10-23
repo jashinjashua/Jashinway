@@ -109,7 +109,7 @@ function handleCollision() {
             if (score < 5) {
 
                 ctx.fillText("Scor : " + score + " - Ezik Seviyesi", 140, canvas.height / 2 - 20);
-            } else if (score > 5 && score < 11) {
+            } else if (score > 4 && score < 11) {
 
                 ctx.fillText("Scor : " + score + " - Tekrar Dene", 140, canvas.height / 2 - 20);
 
