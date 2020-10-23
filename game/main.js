@@ -1,7 +1,27 @@
 const canvas = document.getElementById('canvas1');
 const ctx = canvas.getContext('2d');
+let gamestarter = document.querySelector('.game-starter');
+let seconds = document.getElementById("counter").textContent;
+
+
+
 canvas.width = 600;
 canvas.height = 400;
+
+let countdown = setInterval(function() {
+    seconds--;
+    document.getElementById("counter").textContent = seconds;
+
+    if (seconds <= 0) {
+        clearInterval(countdown);
+        gamestarter.remove();
+        animate();
+
+
+
+    }
+
+}, 1000)
 
 let spacePressed = false;
 let angle = 0;
@@ -47,9 +67,8 @@ function handleBackground() {
 
 
 
-
-
 function animate() {
+
 
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
@@ -60,6 +79,7 @@ function animate() {
     handleObstacles();
     bird.update();
     bird.draw();
+
     ctx.fillStyle = gradient;
     ctx.font = '70px Georgia';
 
@@ -77,7 +97,7 @@ function animate() {
     frame++;
 
 }
-animate();
+
 
 window.addEventListener('keydown', function(e) {
 
@@ -109,7 +129,7 @@ function handleCollision() {
             if (score < 5) {
 
                 ctx.fillText("Scor : " + score + " - Ezik Seviyesi", 140, canvas.height / 2 - 20);
-            } else if (score > 4 && score < 11) {
+            } else if (score > 5 && score < 11) {
 
                 ctx.fillText("Scor : " + score + " - Tekrar Dene", 140, canvas.height / 2 - 20);
 
@@ -136,8 +156,8 @@ function handleCollision() {
             ctx.fillText("Tekrar Oynamak icin F5'e Bas", 100, canvas.height - 160);
             return true;
 
-
         }
+
 
     }
 
