@@ -43,7 +43,7 @@ setInterval(function() {
     movePlayer();
 
     handlePlayerFrame();
-}, 70);
+}, 75);
 
 window.addEventListener("keydown", function(e) {
 
